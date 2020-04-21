@@ -10,8 +10,8 @@ import java.net.URISyntaxException;
 import java.net.URL;
 
 public class TheMovieDbApiHandler {
-
-    private final String theMovieDbApiKey = "2bd8b1f8f29d23972a1499b54d8ef38d";
+    /** Insert your private API KEY from 'The movie DB' here **/
+    private final String theMovieDbApiKey = "<< Your API key >>";
     private final String theMovieDbTvShowsUrl = "https://api.themoviedb.org/3/tv/%s?";
     private final String theMovieDbGenreUrl = "https://api.themoviedb.org/3/genre/tv/list?";
 
